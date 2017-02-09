@@ -1,0 +1,41 @@
+public class Weapon
+{
+  private String name;
+  private Integer weight;
+  private Integer damage;
+  
+  /**
+     * Accessor method to get the name of the Item
+     * @return the weight of the item
+     */
+  public String getName()
+  {
+    return name;
+  }
+  
+  /**
+     * Accessor method to get the weight of the Item
+     * @return the weight of the item
+     */
+  public Integer getWeight()
+  {
+    return weight;
+  }
+  
+  /**
+     * Accessor method to get the damage of the Item
+     * @return the damage of the item
+     */
+  public Integer getDamage()
+  {
+    return damage;
+  }
+  
+  //Method to print description of the object 
+  public void examine()
+  {
+    System.out.print("The item you have is" + name + " and it weighs: " + weight + " and does: " 
+                    + damage + " damage");
+  }
+  
+}
