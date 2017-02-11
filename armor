@@ -1,0 +1,41 @@
+public class Armor extends Item
+{
+  private String name;
+  private Integer weight;
+  private Integer defense;
+  
+  /**
+     * Accessor method to get the name of the Item
+     * @return the weight of the item
+     */
+  public String getName()
+  {
+    return name;
+  }
+  
+  /**
+     * Accessor method to get the weight of the Item
+     * @return the weight of the item
+     */
+  public Integer getWeight()
+  {
+    return weight;
+  }
+  
+  /**
+     * Accessor method to get the defense of the Item
+     * @return the defense of the item
+     */
+  public Integer getDefense()
+  {
+    return defense;
+  }
+  
+  //Method to print description of the object 
+  public void examine()
+  {
+    System.out.print("The item you have is" + name + " and it weighs: " + weight + " and does: " 
+                    + defense + " defense");
+  }
+  
+}
