@@ -1,0 +1,42 @@
+public class Food extends Item
+{
+  private String name;
+  private int weight;
+  private int nutrition;
+  private int quantity;
+  
+  /**
+     * Accessor method to get the name of the Item
+     * @return the weight of the item
+     */
+  public String getName()
+  {
+    return name;
+  }
+  
+  /**
+     * Accessor method to get the weight of the Item
+     * @return the weight of the item
+     */
+  public Integer getWeight()
+  {
+    return weight;
+  }
+  
+  /**
+     * Accessor method to get the nutrition of the Item
+     * @return the nutrition of the item
+     */
+  public Integer getNutrition()
+  {
+    return nutrition;
+  }
+  
+   /**
+     * Accessor method to get the quantity of the Item
+     * @return the quantity of the item
+     */
+  public Integer getQuantity()
+  {
+    return quantity;
+  }
