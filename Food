@@ -40,3 +40,22 @@ public class Food extends Item
   {
     return quantity;
   }
+  
+  /**
+     * Mutator method to get the quantity of the Item
+     * @param quantity
+     */
+  public void setQuantity(int quan)
+  {
+    quantity = quan;
+  }
+  
+  
+  //Method to print description of the object 
+  public void examine()
+  {
+    System.out.print("The item you have is" + name + " and it weighs: " + weight + " has " 
+                       + nutrition + " nutrition, and you have " + quantity + " of that item");
+  }
+  
+}
