@@ -1,0 +1,79 @@
+/* Name: Chase Werner
+ * Lab Session: 10:25 - 11:20
+ * Due Date: Febuary 12th, 2017
+ */
+
+public class itemDemo
+{
+  // Main method
+  public static void main(String[] args)
+  {
+    // creats new weapon object called laser
+    Weapon laser = new Weapon();
+    
+    // sets name of laser    
+    laser.setName("laser");
+    
+    // sets weight of laser    
+    laser.setWeight(0);
+    
+    // sets damage of laser    
+    laser.setDamage(25);
+    
+    // prints descrption of laser    
+    laser.examine();
+    
+    // creates new weapon object called rocket and intializes all of its fileds    
+    Weapon rocket = new Weapon("rocket", 20, 40);
+    
+    // prints descrption of rocket    
+    rocket.examine();
+    
+    // creats new armor object called shield    
+    Armor shield = new Armor();
+    
+    // sets name of shield    
+    shield.setName("shield");
+    
+    // sets weight of shield    
+    shield.setWeight(10);
+    
+    // sets Defense of shield    
+    shield.setDefense(18);
+    
+    // prints descrption of shield    
+    shield.examine();
+    
+    // creats new armor object called barrier and intializes all of it fileds    
+    Armor barrier = new Armor("Protective barrier", 2, 12);
+    
+    // prints descrption of barrier    
+    barrier.examine();
+    
+    // creates new food object called carrots    
+    Food carrots = new Food();
+    
+    // sets name of carrots    
+    carrots.setName("Carrots");
+    
+    // sets weight of carrots    
+    carrots.setWeight(1);
+    
+    // sets nutrition of carrots    
+    carrots.setNutrition(12);
+    
+    // sets quanity of carrots    
+    carrots.setQuantity(3);
+    
+    // prints descrption of carrots    
+    carrots.examine();
+    
+    // creates a new food object called pumpkin and intializes all of its fileds    
+    Food pumpkin = new Food("pumpkin", 4, 18, 2);
+    
+    // prints descrption of pumpkin    
+    pumpkin.examine();
+    
+  }
+  
+}
